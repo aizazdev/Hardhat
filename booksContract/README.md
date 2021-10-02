@@ -1,15 +1,12 @@
-# Basic Sample Hardhat Project
+# Basic Sample Book Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+booksContract is a simple solidity contract for selling and buying book
 
-Try running some of the following tasks:
+Want to use the repository
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+Clone the repository
+Navigate to folder 
+run npm install 
+for more hardhat command visit https://hardhat.org/getting-started/
 ```
