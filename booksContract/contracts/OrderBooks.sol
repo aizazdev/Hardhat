@@ -2,7 +2,7 @@
 pragma solidity >=0.5.0 <0.9.0;
 import "hardhat/console.sol";
 
-contract OrderBook {
+contract OrderBooks {
     struct Book {
         string name;
         address author;
@@ -10,7 +10,6 @@ contract OrderBook {
     }
     
     Book[] public books;
-    uint id;
     
     mapping( address => uint ) public booksByAuthor;
     mapping( uint => Book[] ) public bookById;
