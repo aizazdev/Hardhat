@@ -22,7 +22,7 @@ contract OrderBook {
     }
     
     function buyBook( uint _id ) public payable {
-        console.log("address of book author is %s and Buyer is %s", books[_id.author, msg.sender]);
+        console.log("address of book author is %s and Buyer is %s", books[_id].author, msg.sender);
         require( msg.value == books[_id].price, "price must be equal to book price");
         require( msg.sender != books[_id].author && msg.sender != address(0),"seller can't buy his own book");
         
