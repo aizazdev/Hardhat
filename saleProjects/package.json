@@ -1,0 +1,19 @@
+{
+  "name": "saleprojects",
+  "version": "1.0.0",
+  "description": "this is sale project using solidity ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.6.7"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "chai": "^4.3.4",
+    "ethers": "^5.5.1"
+  }
+}

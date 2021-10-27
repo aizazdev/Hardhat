@@ -1,0 +1,9 @@
+{
+    "scripts": {
+      "build": "waffle"
+    },
+    "compilerType": "solcjs",
+    "compilerVersion": "0.8.4",
+    "sourceDirectory": "./contracts",
+    "outputDirectory": "./build"
+}
